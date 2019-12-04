@@ -15,7 +15,17 @@ public class Boletin11_3_2019 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
+        Prueba2 a = new Prueba2();
+        
+        a.setAny(2021);    // si cambias el orden de la introduccion de datos, osea metes primero el dia y despues el año, el filtro no funciona
+        a.setMes(2);
+        a.setDia(33);
+        
+        
+        System.out.println(a.getAny());
+        System.out.println(a.getMes());
+        System.out.println(a.getDia());
     }
     
 }
