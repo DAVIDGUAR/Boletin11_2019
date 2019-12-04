@@ -18,9 +18,9 @@ public class Boletin11_3_2019 {
        
         Prueba2 a = new Prueba2();
         
-        a.setAny(2021);    // si cambias el orden de la introduccion de datos, osea metes primero el dia y despues el año, el filtro no funciona
+        a.setAny(1800);    // si cambias el orden de la introduccion de datos, osea metes primero el dia y despues el año, el filtro no funciona
         a.setMes(2);
-        a.setDia(33);
+        a.setDia(29);
         
         
         System.out.println(a.getAny());
