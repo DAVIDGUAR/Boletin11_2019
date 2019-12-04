@@ -11,7 +11,7 @@ package boletin11_3_2019;
  */
 public class Prueba2 {
 
-    int dia = 1, mes = 1, any = 2019;
+    int dia = 0, mes = 0, any = 0;
 
     public Prueba2() {
     }
@@ -26,7 +26,7 @@ public class Prueba2 {
 
             if (mes == 2) {
 
-                if (any == 2020 || any == 2024 || any == 2028) {
+                if (any % 4 == 0) {
 
                     if (d > 0 && d < 30) {
 
@@ -49,7 +49,7 @@ public class Prueba2 {
                     this.dia = d;
 
                 }
-            }
+            }else
             
             if (d> 0 && d < 31){
                 
